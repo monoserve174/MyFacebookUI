@@ -1,0 +1,16 @@
+{
+  "name": "Class03_Create_without_Webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev_serve": "TAILWIND_MODE=watch tailwindcss -i ./src/custom_style.css -o ./dist/tailwind.css --watch",
+    "tailwind": "NODE_ENV=production tailwindcss -i ./src/custom_style.css -o ./dist/tailwind.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^2.2.15"
+  }
+}
